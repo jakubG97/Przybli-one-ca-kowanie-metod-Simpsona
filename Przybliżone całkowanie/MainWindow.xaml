@@ -1,0 +1,58 @@
+﻿<Window x:Class="Przybliżone_całkowanie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Przybliżone_całkowanie"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        xmlns:models="clr-namespace:Przybliżone_całkowanie.Models"
+        mc:Ignorable="d"
+        Title="Całkowanie metodą Simspona" Height="472" Width="534" MinHeight="472" MinWidth="534" Initialized="Window_Initialized" >
+    <Window.DataContext>
+        <models:Curve/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <oxy:PlotView Name="CurveView" Model="{Binding Curve}" Grid.Row="0"/>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                <Label VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock FontSize="16" FontWeight="Bold">Wprowadź dane aby przeprowadzić obliczenia</TextBlock>
+                </Label>
+            </Grid>
+            <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">
+                <TextBlock FontSize="16" FontFamily="Consolas" >Wprowadź funkcję, <LineBreak></LineBreak>np. 3x^2+4x-10</TextBlock>
+            </Label>
+            <TextBox  Name="FX" Grid.Column="1" Grid.Row="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontWeight="Bold" FontSize="16">3x^2+4x-10</TextBox>
+            <Label Grid.Column="0" Grid.Row="2" VerticalAlignment="Center">
+                <TextBlock FontSize="16" FontFamily="Consolas" >Początek przedziału całkowania</TextBlock>
+            </Label>
+            <TextBox x:Name="XP" Grid.Column="1" Grid.Row="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontWeight="Bold" FontSize="16">2</TextBox>
+            <Label Grid.Column="0" Grid.Row="3" VerticalAlignment="Center">
+                <TextBlock FontSize="16" FontFamily="Consolas" >Koniec przedziału całkowania</TextBlock>
+            </Label>
+            <TextBox Name="XK" Grid.Column="1" Grid.Row="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontWeight="Bold" FontSize="16">5</TextBox>
+            <Label Grid.Column="0" Grid.Row="4" VerticalAlignment="Center">
+                <TextBlock FontSize="16" FontFamily="Consolas" >Dokładność przybliżeń</TextBlock>
+            </Label>
+            <TextBox Name="Precision" Grid.Column="1" Grid.Row="4" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontWeight="Bold" FontSize="16">10</TextBox>
+            <Label Name="Result" FontSize="20" FontFamily="Consolas" FontWeight="Bold" Grid.Row="5" Grid.ColumnSpan="2" HorizontalContentAlignment="Center">Wynik: </Label>
+        </Grid>
+    </Grid>
+</Window>

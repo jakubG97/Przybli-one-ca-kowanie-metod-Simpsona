@@ -1,0 +1,22 @@
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\Przybliżone całkowanie.exe.config
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\Przybliżone całkowanie.exe
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\Przybliżone całkowanie.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie.csprojResolveAssemblyReference.cache
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\MainWindow.g.cs
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\App.g.cs
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie_MarkupCompile.cache
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie_MarkupCompile.lref
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\MainWindow.baml
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie.g.resources
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone_całkowanie.Properties.Resources.resources
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie.csproj.GenerateResource.Cache
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie.csproj.CoreCompileInputs.cache
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie.exe
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\Przybliżone całkowanie.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\OxyPlot.dll
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\OxyPlot.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\OxyPlot.xml
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Debug\GeneratedInternalTypeHelper.g.cs
