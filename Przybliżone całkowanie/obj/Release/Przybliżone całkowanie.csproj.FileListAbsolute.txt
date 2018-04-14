@@ -1,0 +1,22 @@
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\Przybliżone całkowanie.exe.config
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\Przybliżone całkowanie.exe
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\Przybliżone całkowanie.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\OxyPlot.dll
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\OxyPlot.Wpf.dll
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\OxyPlot.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\OxyPlot.xml
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\OxyPlot.Wpf.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\bin\Release\OxyPlot.Wpf.xml
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\MainWindow.g.cs
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\App.g.cs
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie_MarkupCompile.cache
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie_MarkupCompile.lref
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\MainWindow.baml
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie.g.resources
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone_całkowanie.Properties.Resources.resources
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie.csproj.GenerateResource.Cache
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie.csproj.CoreCompileInputs.cache
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie.exe
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie.pdb
+C:\Users\jakub\source\repos\Przybliżone całkowanie\Przybliżone całkowanie\obj\Release\Przybliżone całkowanie.csprojResolveAssemblyReference.cache

@@ -66,12 +66,13 @@ namespace Przybliżone_całkowanie
                 }
 
                 result = partsCount / 6 * (fx.F(from) + fx.F(to) + 2 * result + 4 * field);
+                if (result < 0) result *= -1;
                 Result.Content = "Wynik: " + result.ToString(CultureInfo.CurrentCulture);
                 DrawCurve(fx, from, to);
             }
-            catch (Exception e)
+            catch (Exception ignoredException)
             {
-                Result.Content = "Błąd w danych wejściowych";
+                Result.Content = "Błąd danych wejściowych";
             }
         }
 
