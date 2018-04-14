@@ -65,8 +65,7 @@ namespace Przybliżone_całkowanie
                     if (i < prec) result += fx.F(x);
                 }
 
-                result = partsCount / 6 * (fx.F(from) + fx.F(to) + 2 * result + 4 * field);
-                if (result < 0) result *= -1;
+                result = Math.Abs(partsCount / 6 * (fx.F(from) + fx.F(to) + 2 * result + 4 * field));
                 Result.Content = "Wynik: " + result.ToString(CultureInfo.CurrentCulture);
                 DrawCurve(fx, from, to);
             }
@@ -88,7 +87,8 @@ namespace Przybliżone_całkowanie
             }
             a.Color2 = OxyColor.FromArgb(0, 0, 0, 0);
             model.Series.Add(a);
-            var fs = new FunctionSeries(fx.F, from-(20*from)/100, to+ (20 * to) / 100, 0.1, "f(x)");
+            var distanceBetweenPoints = Math.Abs(to - from);
+            var fs = new FunctionSeries(fx.F, from- ((distanceBetweenPoints * 20) / 100), to+ ((distanceBetweenPoints * 20)/100), 0.1, "f(x)");
             
             model.Series.Add(fs);
             CurveView.Model = model;
